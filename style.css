@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-width: 400px;
+    max-width: 1366px;
+    margin: 0px auto;
+    font-family: "Roboto";
+    display: grid;
+    grid-template-columns: 458px 156px 294px 458px;
+    grid-template-rows: 716px 427px 427px 716px;
+    grid-template-areas: 
+    "block1 block1 block1 block2"
+    "block3 block3 block4 block4"
+    "block3 block3 block5 block5"
+    "block6 block7 block7 block7";
+}
+span{
+    font-weight: 300;
+}
+h1{
+    margin: 0;
+}
+.block1{
+    grid-area: block1;
+    background-image: url(images/Rectangle_1.jpg);
+    background-size: cover;
+    text-align: right;
+}
+.block1 h1{
+    padding: 94px 23px 0 0;
+    color: #262f32;
+    font-size: 45.71px;
+    font-weight: 400;
+}
+.block2{
+    grid-area: block2;
+    background-image: url(images/Rectangle_1_copy.jpg);
+    background-size: cover;
+    padding: 57px 77px 101px 54px;
+    color: #262f32;
+}
+.block2 h1{
+    padding-top: 74px;
+    font-size: 40px;
+    font-weight: 700; 
+    line-height: 57.75px; 
+}
+.block2 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.block3{
+    grid-area: block3;
+    background-image: url(images/Rectangle_1_copy_2.jpg);
+    background-size: cover;
+    padding: 70px 105px 65px 60px;
+    color: #ffffff;
+}
+.block3, .block4, .block5, .block6, .block7{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.block3 h1{
+    font-size: 45px;
+    font-weight: 900;  
+}
+.block3 p{
+    font-size: 15.57px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.block4{
+    grid-area: block4;
+    background-image: url(images/Rectangle_1_1.jpg);
+    background-size: cover;
+    padding: 70px 54px;
+    color: #262f32;
+}
+.block4 h1{
+    font-size: 45px;
+    font-weight: 900;  
+}
+.block4 button{
+    color: #262f32;
+    border: 1px solid #262f32;
+}
+.block4 button, .block5 button{
+    width: 212px;
+    height: 52px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Roboto";
+    font-size: 16.57px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.block5{
+    grid-area: block5;
+    background-image: url(images/Rectangle_1_1_copy.jpg);
+    background-size: cover;
+    padding: 70px 162px 70px 54px;
+    color: #ffffff;
+}
+.block5 h1{
+    font-size: 45px;
+    font-weight: 900;  
+}
+.block5 p{
+    font-size: 15.57px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.block5 button{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.block6{
+    grid-area: block6;
+    background-image: url(images/Rectangle_2_copy.jpg);
+    background-size: cover;
+    padding: 74px 67px 72px 48px;
+    color: #ffffff;
+}
+.block6 h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 66px;  
+}
+.block6_2{
+    padding-left: 11px;
+}
+.block6 h2{
+    font-size: 42px;
+    font-weight: 900;  
+}
+.block6 p{
+    margin: 0;
+    font-size: 16.57px;
+    font-weight: 400;
+}
+.block7{
+    grid-area: block7;
+    background-image: url(images/Rectangle_3.jpg);
+    background-size: cover;
+    padding: 74px 0px 72px 54px;
+    color: #ffffff;
+}
+.block7 h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.block7 input{
+    width: 302px;
+    height: 56px;
+    margin: 0 13px 15px 0;
+}
+.block7 input, textarea{
+    padding-left: 27px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16.57px;
+    font-weight: 400;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+textarea{
+    width: 617px;
+    height: 160px;
+    padding-top: 23px;
+    resize: none;
+}
+.block7 p{
+    margin: 0;
+    font-size: 16.57px;
+    font-weight: 400;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.block7 button{
+    width: 45px;
+    height: 45px;
+    margin: 22px 6px 49px 0;
+    border-radius: 5px;
+    border: none;
+}
+.facebook{
+    background-color: #345bb4;
+}
+.dribbble{
+    background-color: #e64895;
+}
+.twitter{
+    background-color: #00b4ff;
+}
