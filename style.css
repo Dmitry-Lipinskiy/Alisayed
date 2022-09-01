@@ -3,7 +3,7 @@
 }
 body{
     width: 100%;
-    min-width: 400px;
+    min-width: 1080px;
     max-width: 1366px;
     margin: 0px auto;
     font-family: "Roboto";
@@ -34,6 +34,12 @@ h1{
     font-size: 45.71px;
     font-weight: 400;
 }
+.block2, .block3, .block4, .block5, .block6, .block7{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
 .block2{
     grid-area: block2;
     background-image: url(images/Rectangle_1_copy.jpg);
@@ -58,12 +64,6 @@ h1{
     background-size: cover;
     padding: 70px 105px 65px 60px;
     color: #ffffff;
-}
-.block3, .block4, .block5, .block6, .block7{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
 }
 .block3 h1{
     font-size: 45px;
